@@ -4,4 +4,6 @@
 - 全局安装 npm i -g promises-aplus-tests
 - 文件所在目录运行以下命令 (例如你的文件名为:MyPrommise.js)
 - promise-aplus-tests MyPrommise.js
+- 等待
+- ok.
  
