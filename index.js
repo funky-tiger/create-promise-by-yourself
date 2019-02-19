@@ -4,7 +4,7 @@ let p1 = ()=>{
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
             resolve('success.1');
-        },1000);
+        },1000); 
     });
 }
 let p2 = ()=>{
