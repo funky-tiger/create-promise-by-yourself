@@ -158,7 +158,7 @@ Promise.all = function(values){
     });
 }
 
-Promise.race = function(values){
+Promise.race = function(values){ 
     return new Promise((resolve,reject)=>{
         for(let i = 0; i < values.length; i++){
             let current = values[i];
