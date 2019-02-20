@@ -96,7 +96,7 @@ function resolvePromiseRelation(promise2,promise3,resolve,reject){
                 then.call(promise3, (promise4)=>{
                     if(called) return;
                     called = true;
-                    resolvePromiseRelation(promise3,promise4,resolve,reject);
+                    resolvePromiseRelation(promise2,promise4,resolve,reject);
                 },(r)=>{
                     if(called) return;
                     called = true;
